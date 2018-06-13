@@ -2,12 +2,12 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "corePolyfilled": "es5-build-disabled.js",
   "global": "app.global.js",
-  "core": "app.core.js",
+  "core": "app.7rjpbvxk.js",
+  "corePolyfilled": "app.wrycrhlw.js",
   "components": {
     "any-elm": {
-      "$": "any-elm"
+      "$": "ptlc5iuv"
     }
   }
 }

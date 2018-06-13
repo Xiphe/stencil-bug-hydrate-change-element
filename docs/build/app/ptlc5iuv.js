@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.App,l=["div","h1","span","h2","marquee"];class s{constructor(){this.Elm="div",this.changeElm=(()=>{this.Elm=l[l.indexOf(this.Elm)+1]||l[0]})}render(){return t("div",null,"This is a: ",this.Elm,t("br",null),t("button",{onClick:this.changeElm},"Set to s.th. else"),t("br",null),t(this.Elm,null,t("slot",null)))}static get is(){return"any-elm"}static get properties(){return{Elm:{state:!0}}}}export{s as AnyElm};

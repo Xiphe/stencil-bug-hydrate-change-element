@@ -4,7 +4,9 @@ exports.config = {
   outputTargets: [
     {
       type: "www",
-      baseUrl: "/stencil-bug-hydrate-change-element/",
+      baseUrl: process.env.GH_PAGES
+        ? "/stencil-bug-hydrate-change-element/"
+        : "/",
       serviceWorker: false,
       dir: "docs"
     }
@@ -12,6 +14,6 @@ exports.config = {
 };
 
 exports.devServer = {
-  root: "www",
+  root: "docs",
   watchGlob: "**/**"
 };

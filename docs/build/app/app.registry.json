@@ -3,8 +3,8 @@
   "fsNamespace": "app",
   "loader": "../app.js",
   "global": "app.global.js",
-  "core": "app.7rjpbvxk.js",
-  "corePolyfilled": "app.wrycrhlw.js",
+  "core": "app.yomwfmzm.js",
+  "corePolyfilled": "app.ovq895hp.js",
   "components": {
     "any-elm": {
       "$": "ptlc5iuv"
